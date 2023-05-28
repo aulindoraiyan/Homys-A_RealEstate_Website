@@ -1,0 +1,83 @@
+.r-container{
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(4, 31, 3, 0.089);
+}
+.r-head{
+  margin-bottom: 2rem;  
+}
+
+.r-card{
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in-out;
+    
+}
+.r-card>img{
+    width: 100%;
+    max-width: 28rem;
+}
+.r-card>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.r-card>:nth-child(3){
+    font-size: 1.5rem;
+}
+.r-card>:nth-child(4){
+    font-size: 0.8rem;
+    width: 15rem;
+}
+.r-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 255, 255, 0) 0%,
+        rgba(49, 86, 235, 0.46) 217.91%
+    ); 
+    /* hover korle je zoom er jei background color hoi ota sheta */
+
+        box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+
+
+}
+.swiper-horizontal{
+    overflow: visible;
+}
+.r-buttons-container{
+    position: relative;
+    gap: 1rem;
+    
+   
+   
+}
+.r-buttons{
+    position: absolute;
+    
+    align-items: center;  
+}
+.r-buttons-container button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 209, 59);
+    cursor:  pointer;
+
+}
+.r-buttons-container:hover{
+    scale: 1.2;
+    cursor: pointer;
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 255, 255, 0) 0%,
+        rgba(45, 85, 245, 0.46) 217.91%
+    ); 
+
+}
+
